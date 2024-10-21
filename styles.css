@@ -1,0 +1,70 @@
+/* General styling for the body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #e7f1ff; /* Light blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styling */
+.container {
+    background-color: #ffffff; /* White background */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Title styling */
+h1 {
+    font-size: 26px;
+    color: #004080; /* Dark blue for title */
+    margin-bottom: 20px;
+}
+
+/* Label styling */
+label {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Input styling */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Button styling */
+button {
+    background-color: hsl(342, 60%, 75%); /* Button color */
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #577ca3; /* Darker blue on hover */
+    transform: translateY(-1px);
+}
+
+/* Result styling */
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
